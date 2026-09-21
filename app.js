@@ -13,7 +13,6 @@ let data = null;
 let loadFailure = null; // { error, raw } — while set, nothing is ever written to storage
 
 const HISTORY_DAYS = 30;
-const APP_VERSION = 'v2'; // keep in sync with VERSION in sw.js
 
 // ---- Helpers ----
 
@@ -131,7 +130,6 @@ function render() {
       <button class="ghost" data-action="import">Import</button>
     </footer>
     <p class="note">${plural(data.events.length, 'entry', 'entries')} saved on this device. Export now and then to keep a backup.</p>
-    <p class="note">Brushing ${APP_VERSION}</p>
   `;
 }
 
