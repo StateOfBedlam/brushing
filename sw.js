@@ -4,7 +4,7 @@
 // Bump VERSION on every deploy. Requests go network-first, so an online launch always
 // gets the newest code; the cache is only a fallback for offline launches.
 
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = `brushtracker-${VERSION}`;
 const FILES = [
   './',
